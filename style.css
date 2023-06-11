@@ -1,0 +1,532 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body{
+    background-color: #12132a;
+    font-family: poppins;
+    color: #fff;
+}
+
+:root {
+  --offwhite: #767799;
+  --pink: #c23893;
+}
+
+#wrapper {
+  min-width: 1120px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+.icons_nav {
+  display: flex;
+  color: white;
+  font-family: inter;
+  gap: 6px;
+  align-items: center;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  display: flex;
+  flex: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 45px;
+  padding: 0px 100px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  gap: 3.2rem;
+}
+
+.nav-links a {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+.nav-links a li {
+  font-family: poppins;
+  font-size: 1.3rem;
+}
+
+.btn {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  font-size: 1.3rem;
+  font-family: poppins;
+  font-weight: 500px;
+  padding: 0.8rem 2.5rem;
+}
+
+/* section-1 */
+
+.section-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5rem;
+  position: relative;
+  position: relative;
+}
+
+.sec1-head {
+  font-size: 5.3rem;
+  font-family: poppins;
+}
+
+.sec1-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 7.3rem;
+}
+
+.sec1-left h2 {
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  line-height: 1.2;
+}
+
+.sec1-left img {
+  position: absolute;
+  width: 9rem;
+  background: transparent;
+  top: -5.5rem;
+  right: 36%;
+}
+
+.sec1-left p {
+  width: 70%;
+  color: var(--offwhite);
+  margin-top: 3.25rem;
+}
+
+.exp-now {
+  margin-top: 4rem;
+}
+
+.exp-now {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  gap: 8.5rem;
+}
+
+.exp-num {
+  font-size: 2rem;
+}
+
+.exp-now span {
+  color: var(--offwhite);
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  padding-right: 4rem;
+}
+
+.hand_img {
+  padding-right: 2rem;
+  margin-bottom: -0.5rem;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.vector {
+  background-color: #162446;
+  width: 100%;
+  height: 8.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+/* section-3 */
+.section-3 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5.7rem;
+}
+
+.section-3 h2{
+    font-size: 3.8rem;
+    font-weight: 400;
+    letter-spacing: 0.9;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content:   center;
+  max-width: 100%;
+  margin: 0px 8rem;
+  margin-top: 2.3rem;
+  gap: 5rem;
+}
+
+
+.card div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 28%;
+  align-items: center;
+  text-align: center;
+  border: 2px solid var(--pink);
+  padding: 1.6rem;
+  border-radius: 10px;
+}
+
+.card div img{
+    margin-top: 3px;
+}
+
+.card div h3{
+    margin-top: 2.4rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.card div .description{
+    margin-top: 1.8rem;
+    font-size: 0.9rem;
+}
+
+/* section- features */
+
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.features .ring-mockup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.features .ring-mockup .ring{
+    width: 60rem;
+}
+
+.features .ring-mockup .mockup{
+    position: absolute;
+    width: 15.5rem;
+}
+
+
+.feat-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.feat-right .pink{
+    color: var(--pink);
+}
+
+.feat-right h2{
+    font-size: 3.8rem;
+    font-weight: 400;
+}
+
+.features .budget{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.budget div div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.budget-para{
+    margin-top: .6rem;
+    color: #767799;
+    width: 70%;
+}
+/* invite team */
+
+.team{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.team-left{
+     width: 41%;
+}
+
+.team-left h2{
+    font-size: 3.5rem;
+    font-weight: 500;
+    width: 100%;
+    padding-right: 0rem;
+}
+
+.team-left p{
+    width: 35rem;
+    margin-top: 2rem;
+    color: #767799;
+}
+
+.team-left .btn{
+    margin-top: 3.2rem;
+}
+
+.team-right{
+    width: max-content;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.team-right .design{
+    width: 20rem;
+    padding: 0;
+}
+
+.team-right .comments{
+    margin-top: 4rem;
+    margin-left: -1.5rem;
+    width: 20rem;
+}
+.team-right .user{
+    position: absolute;
+    width: 8rem;
+    top: 4rem;
+}
+/* user-centeric */
+.user{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5.7rem;
+}
+
+.user h2{
+    font-size: 3.7rem;
+    font-weight: 500;
+}
+
+.user .user-para{
+    margin-top: 1.8rem;
+    color: #767799;
+}
+
+.user .grid{
+    /* width: 1120px; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0rem 6.5rem;
+    margin-top: 6rem;
+    
+}
+
+.user .grid div{
+    /* width: auto; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* border: 1px solid var(--pink); */
+}
+
+.user div div img{
+    width: 44px;
+    height: 44px;
+    
+}
+
+.user div div h4{
+    margin-top: 3rem;
+    font-size: 1.3rem;
+}
+
+.user div div p{
+    margin-top: 1.4rem;
+    width: 80%;
+    color: #767799;
+    text-align: center;    
+}
+
+.item1, .item4, .item2, .item5{
+    border-right: 1px solid var(--pink);
+}
+
+.item1, .item3, .item2{
+    border-bottom: 1px solid var(--pink);
+    padding-bottom: 4rem;
+}
+.item4, .item5, .item6{
+    padding-top: 4rem;
+}
+
+
+
+
+/* iphone */
+.iphone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    width: 100%;
+
+}
+
+.iphone h2{
+    font-size: 3.5rem;
+    width: 80%;
+}
+
+.iphone img{
+    
+}
+
+#pink{
+    color: var(--pink);
+}
+
+
+/* footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 8rem;
+}
+
+footer section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 3.5rem 10rem;
+}
+
+footer section div{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+footer section div h4{
+    color: var(--pink);
+    font-size: 14px;
+}
+
+footer section div p{
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #12132a;
+}
+
+
+.rights{
+    background-color: var(--pink);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8.25rem;
+    padding: 0 7rem;
+}
+
+.rights p{
+    color: #fff;
+}
+
+.rights div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+footer section div p span{
+    font-size: 10px;
+    color: #344054;
+    background-color: #F2F4F7;
+    padding: 0.3rem .5rem;
+    border-radius: 1rem;
+    margin-left: .8rem;
+}
+
+
+/* about us */
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 11.75rem;
+}
+
+.about div .tooltip{
+    position:absolute;
+    top: 72%;
+    right: 13%;
+}
+
+.about1{
+    color:var(--pink);
+}
+
+.about h2{
+    font-size: 3.8rem;
+    font-weight: 400;
+}
+
+.about_para{
+    color: #767799;
+    margin-top: 1.5rem;
+}
+
+.about div{
+    margin-top: 6rem;
+}

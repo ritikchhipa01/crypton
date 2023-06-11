@@ -7,9 +7,7 @@
     <title>Crypton</title>
     <link rel="icon" type="image/x-icon" href="/image/icon.png">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <script src="https://use.fontawesome.com/your-embed-code.js"></script>
+    <script src="https://kit.fontawesome.com/de907447e9.js" crossorigin="anonymous"></script>
 
 
 </head>
@@ -19,17 +17,18 @@
         <nav>
             <div class="navbar">
                 <div class="icons_nav">
-                    <img src="/image/icon.png" alt="Crypton_image">
+                    <a href="/"><img src="/image/icon.png" alt="Crypton_image"></a>
                     <h2>Crypton</h2>
+                
                 </div>
                 <div class="nav-links">
                     <a href="">
                         <li>Home</li>
                     </a>
-                    <a href="">
+                    <a href="#about">
                         <li>About</li>
                     </a>
-                    <a href="">
+                    <a href="#services">
                         <li>Services</li>
                     </a>
                     <a href="">
@@ -60,7 +59,7 @@ trading</pre>
                         Explore Now
                     </button>
                     <div class="arrow">
-                        <i class="fa-regular fa-arrow-left" style="color: #ffffff;"></i>
+                        <i class="fa-regular fa-arrow-right" style="color: #ffffff;"></i>
                         <div class="exp-num">01-<span>03</span></div>
                         <i class="fa-regular fa-arrow-right" style="color: #b0b0b0;"></i>
                     </div>
@@ -76,7 +75,7 @@ trading</pre>
         <!-- section 3 -->
         <section class="section-3">
             <h2>Automated portfolio tracking</h2>
-            <p>Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et sint laboriosam sed ipsa sint
+            <p class="auto_para">Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et sint laboriosam sed ipsa sint
                 ut voluptatum labore et possimus voluptas.</p>
             <div class="card">
                 <div>
@@ -87,14 +86,14 @@ trading</pre>
                         sint laboriosam sed ipsa sint ut volup.</p>
                 </div>
                 <div>
-                    <p>01</p>
+                    <p>02</p>
                     <img src="/image//Mask group.png" alt="">
                     <h3>Connect wallet & exchanges</h3>
                     <p class="description">Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et
                         sint laboriosam sed ipsa sint ut volup.</p>
                 </div>
                 <div>
-                    <p>01</p>
+                    <p>03</p>
                     <img src="/image/Mask group (1).png" alt="">
                     <h3>Connect wallet & exchanges</h3>
                     <p class="description">Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et
@@ -134,7 +133,7 @@ trading</pre>
             </div>
         </section>
         <!-- invite team -->
-        <section class="team">
+        <section class="team" id="services">
             <div class="team-left">
                 <h2>
                     Invite team members & enlarge your groups
@@ -200,7 +199,7 @@ trading</pre>
 
         <!-- iphone -->
         <section class="iphone">
-            <div class="image">
+            <div class="iphone_img">
                 <img src="image/iphone.svg" alt="">
             </div>
             <div class="sec1-left">
@@ -228,10 +227,15 @@ forcast</pre>
                     &rdquo;</span></h2>
             <p>Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et sint laboriosam sed ipsa sint
                 ut voluptatum labore et.</p>
+            <div class="test_image">
+                <img src="/image/testimonial1.svg" alt="">
+                <img src="/image/testimonial2.svg" alt="">
+                <img src="/image/testimonial3.svg" alt="">
+            </div>
         </section>
 
         <!-- About -->
-        <section class="about">
+        <section class="about" id="about">
             <p class="about1">About us</p>
             <h2>We&apos;re a distributed team</h2>
             <p class="about_para">We have offices and teams all around the world.</p>
@@ -249,7 +253,7 @@ forcast</pre>
                     <h4 class="foot-Head">Product</h4>
                     <p>Overview </p>
                     <p>Features </p>
-                    <p>Solutions<span>New</span></p>
+                    <p class="solution"><span>Solutions</span><span class="new">New</span></p>
                     <p>Tutorials </p>
                     <p>Pricing </p>
                     <p>Releases </p>
@@ -305,6 +309,15 @@ forcast</pre>
         </footer>
         </div>
 
+        
+        <script>
+            var viewMode = getCookie("view-mode");
+if(viewMode == "desktop"){
+    viewport.setAttribute('content', 'width=1024');
+}else if (viewMode == "mobile"){
+    viewport.setAttribute('content', 'width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no');
+}
+        </script>
 </body>
 
 </html>
